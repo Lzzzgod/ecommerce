@@ -1,9 +1,6 @@
 package com.example.ecommerce.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
@@ -17,6 +14,10 @@ public class Usuario {
     private String senha;
     private String statusLogin;
     private Date dataRegistro;
+
+    @OneToOne
+    @JoinColumn(name = "cliente_id")
+    private Cliente cliente;
 
     public Integer getId() {
         return id;

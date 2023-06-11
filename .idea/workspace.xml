@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="293c86f4-12d4-472a-8237-e3d4a10553f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/EcommerceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/models/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/models/DetalhesPedido.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/models/Envio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/models/Itens.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/models/Pagamento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/models/Pedido.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/models/Produto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/models/Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/repository/ClienteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/repository/DetalhesPedidoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/repository/EnvioRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/repository/ItensRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/repository/PagamentoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/repository/PedidoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/repository/ProdutoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/repository/UsuarioRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/ClienteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/ClienteServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/DetalhesPedidoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/DetalhesPedidoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/EnvioService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/EnvioServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/ItensService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/ItensServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/PagamentoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/PagamentoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/PedidoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/PedidoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/ProdutoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/ProdutoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/UsuarioService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/ecommerce/services/UsuarioServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdspring.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/bdspring.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/DetalhesPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/DetalhesPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Envio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Envio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Itens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Itens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Pagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/models/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/services/ProdutoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecommerce/services/ProdutoServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2QGazhPTnSyCIQenjH2V4pNfjgs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Program Files/JetBrains/IntelliJ IDEA Educational Edition 2022.2/DWBE/ecommerce/target/classes/com/example/ecommerce/models"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.2\DWBE\ecommerce\target\classes\com\example\ecommerce\models" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="293c86f4-12d4-472a-8237-e3d4a10553f8" name="Changes" comment="" />
+      <created>1684982637704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684982637704</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.AnnotationException" package="org.hibernate" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

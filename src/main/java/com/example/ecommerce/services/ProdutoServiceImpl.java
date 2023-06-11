@@ -2,7 +2,6 @@ package com.example.ecommerce.services;
 
 import com.example.ecommerce.models.Produto;
 import com.example.ecommerce.repository.ProdutoRepository;
-import com.example.ecommerce.services.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -50,20 +49,14 @@ public class ProdutoServiceImpl implements ProdutoService {
         produtoRepository.deleteById(id);
 
     }
-
-
     @Override
 
     public void updateProduto(Produto produto) {
 
-        if (Produto.getId() != null) {
-
+        if (produto.getId() != null) {
             produtoRepository.save(produto);
-
         }
-
     }
-
 
     @Override
 

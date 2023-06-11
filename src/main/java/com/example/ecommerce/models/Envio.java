@@ -1,9 +1,6 @@
 package com.example.ecommerce.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Envio {
@@ -16,6 +13,10 @@ public class Envio {
     private String tipoFrete;
     private int precoFrete;
     private int numRegistro;
+
+    @OneToOne
+    @JoinColumn(name="pedido_id")
+    private Pedido pedido;
 
     public Integer getId() {
         return id;

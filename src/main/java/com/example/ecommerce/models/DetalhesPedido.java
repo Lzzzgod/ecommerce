@@ -1,9 +1,6 @@
 package com.example.ecommerce.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class DetalhesPedido {
@@ -18,6 +15,10 @@ public class DetalhesPedido {
     private int qtdProduto;
     private float precoUnidade;
     private float subtotal;
+
+    @OneToOne
+    @JoinColumn(name="pedido_id")
+    private Pedido pedido;
 
     public Integer getId() {
         return id;

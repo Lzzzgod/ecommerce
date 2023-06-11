@@ -1,9 +1,6 @@
 package com.example.ecommerce.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Pagamento {
@@ -17,6 +14,13 @@ public class Pagamento {
     private float subtotal;
     private float precoFrete;
     private int numUsuario;
+
+    @OneToOne
+    @JoinColumn(name="itens_id")
+    private Itens itens;
+
+    @OneToOne(mappedBy = "pagamento")
+    private Pedido pedido;
 
     public Integer getId() {
         return id;

@@ -1,22 +1,20 @@
 package com.example.ecommerce.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Produto {
+
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
 
-    private static Integer id;
+    private Integer id;
     private int numProduto;
     private String nomeProduto;
     private String detalhesPedido;
     private int qtdProduto;
 
-    public static Integer getId() {
+    public Integer getId() {
         return id;
     }
 
